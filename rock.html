@@ -6,15 +6,18 @@
   <h1>Rock, Paper, Scissors!</h1>
 
   {{> rock}} {{> paper}} {{> scissors}}
-    
-  {{> hello}}
+  
+  <p></p>
+  {{> submit}}
     
   <h4> Developed by Sarabeth Jaffe </h4>
 </body>
 
-<template name="hello">
-  <button id="hello">hello</button>
+<template name="submit">
+  <button id="submit">submit</button>
+
   <p> You've pressed the button {{counter}} times. </p>
+
 </template>
 
 <template name="rock">
