@@ -25,3 +25,7 @@ button{
     background-color: bisque;
     margin: 7px;
 }
+
+ul{
+	list-style: none;
+}
